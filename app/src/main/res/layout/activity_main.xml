@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextStudentPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextStudentName"
+        android:hint="Student Phone Number"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/editTextStudentCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextStudentPhone"
+        android:hint="Student Course"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextStudentCourse"
+        android:text="Submit"/>
+
+    <Button
+        android:id="@+id/buttonView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSubmit"
+        android:layout_marginTop="16dp"
+        android:text="View Details"
+        android:visibility="gone"/>
+</RelativeLayout>
