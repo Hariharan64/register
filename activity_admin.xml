@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/et_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bio" />
+
+    <EditText
+        android:id="@+id/et_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Website" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="Profile Image" />
+
+    <Button
+        android:id="@+id/btn_upload_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Image" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save User" />
+</LinearLayout>
